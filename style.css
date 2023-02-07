@@ -1,9 +1,18 @@
+/* Alignment of the columns so that visualizations are shown side by side */
 .column {
     float: left;
-    padding: 10px; /* Should be removed. Only for demonstration */
+    padding: 10px; 
   }
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
+
+  /* Center align title header and Acknowledgement sections */
+h1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
