@@ -1,9 +1,12 @@
 // Function to highlight first visualization in blue
 let ind1 = 0;
     function changeStyleVis1(){
+      // colors to flip between
       const colors1 = ['lightblue', 'white'];
+      // get the background color and set it to desired color
         var element = document.getElementById("visualization1");
         element.style.backgroundColor = colors1[ind1];
+        // set index so that it switches between the different elements of colors
         ind1 = (ind1 + 1)% colors1.length;
     }
 

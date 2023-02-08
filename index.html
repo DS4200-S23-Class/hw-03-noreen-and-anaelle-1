@@ -12,13 +12,19 @@
     <h1>hw-03: Interactive Webpage, and Marks & Channels</h1>
     <!-- Visualization 1 Section -->
     <div class="row" id ="visualization1">
-    <button type="button" onclick="changeStyleVis1()">Click to Highlight and Unhighlight this Section</button>
+        <!-- Visualization Image -->
         <div class="column">
             <div id="vis1">
                 <img src="img/vis1.png" alt="vis1" />
             </div>
         </div>
+        <!-- Section for text that goes with image -->
         <div class="column">
+            <!-- Button for highlighting section -->
+            <div class = "button-div">
+                <button type="button" onclick="changeStyleVis1()">Click to Highlight and Unhighlight this Section</button>
+            </div>
+            <!-- Marks, Channels, and Colormap Info -->
             <div class = "vis1">
                 <h3>Marks</h3>
                 <div class="Marks">
@@ -67,14 +73,19 @@
     </div>
     <!-- Visualization 2 Section -->
     <div class="row" id = "visualization2">
-    <button type="button" onclick="changeStyleVis2()">Click to Highlight and Unhighlight this Section</button>
+        <!-- Visualization Image -->
         <div class="column">
             <div class="vis2">
                 <img src="img/vis2.png" alt="vis2" />
             </div>
         </div>
         <div class="column">
+            <!-- Button for highlighting section -->
+            <div class = "button-div">
+                <button type="button" onclick="changeStyleVis2()">Click to Highlight and Unhighlight this Section</button>
+            </div>
             <div class = "vis2">
+                <!-- Marks, Channels, and Colormap info -->
                 <h3>Marks</h3>
                 <div class="Marks">
                     <ul>
@@ -118,18 +129,25 @@
     </div>
     <!-- Visualization 3 Section -->
     <div class="row" id = "visualization3">
-    <button type="button" onclick="changeStyleVis3()">Click to Highlight and Unhighlight this Section</button>
         <div class="column">
+            <!-- Visualization image -->
             <div class="bakeryvis">
-                <img src="img/bakeryvis.png" alt="bakeryvis" width="700" 
-                height="500"/>
+                <img src="img/bakeryvis.png" alt="bakeryvis" width="600" 
+                height="400"/>
             </div>
         </div>
         <div class="column">
+            <!-- Button for highlighting section -->
+            <div class = "button-div">
+                <button type="button" onclick="changeStyleVis3()">Click to Highlight and Unhighlight this Section</button>
+            </div>
             <div class = "bakeryvis">
+                <!-- Marks, Channels, and Colormap Info -->
                 <h3>Marks</h3>
                 <div class="Marks">
-                    Marks
+                    <ul>
+                        <li> Lines</li>
+                    </ul>
                 </div>
                 <h3>Channels</h3>
                 <div class="Channels">
@@ -171,6 +189,7 @@
     </div>
 
     <div id = "acknowledgements">
+        <!-- Resources used -->
         <h2>Acknowledgements</h2>
         <ul>
             <li><a href="https://www.w3schools.com/howto/howto_css_two_columns.asp">Column Setup</a></li>

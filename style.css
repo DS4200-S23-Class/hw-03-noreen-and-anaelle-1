@@ -1,20 +1,41 @@
-/* Alignment of the columns so that visualizations are shown side by side */
-html {zoom: 80%;
+/* Set font of page */
+body{
+  font-family: Arial;
 }
-.column {
-    float: left;
-    padding: 10px; 
-  }
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
 
-  /* Center align title header and Acknowledgement sections */
+/* Alignment of the columns so that visualizations are shown side by side */
+
+/* Alignment of the visualizations */
+.img{
+  float:left;
+  padding: 10px;
+}
+
+
+/* alignment of the buttons */
+.button-div{
+  float: center;
+}
+
+/* Float the "rows" so that they align properly */
+.row {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 10px;
+}
+
+
+/* Center align title header and Acknowledgement sections */
 h1{
   text-align: center;
 }
 h2{
   text-align: center;
 }
+
+
+
