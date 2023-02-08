@@ -1,4 +1,6 @@
 /* Alignment of the columns so that visualizations are shown side by side */
+html {zoom: 80%;
+}
 .column {
     float: left;
     padding: 10px; 
